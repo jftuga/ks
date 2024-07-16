@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+
 IFS=$'\n\t'
 VERSION="0.4.2"
 PROJECT_URL="https://github.com/loteoo/ks"
