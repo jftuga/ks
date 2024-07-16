@@ -6,7 +6,7 @@ VERSION="0.4.2"
 PROJECT_URL="https://github.com/loteoo/ks"
 
 # Commands
-# ==========
+# ========
 add() {
   kind="application password"
   OPTIND=1
