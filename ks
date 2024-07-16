@@ -93,6 +93,7 @@ ls() {
       | grep '0x00000007' \
       | cut -d'=' -f2 \
       | tr -d '"' \
+      | sort -f \
       || throw "No secrets found. Keychain is empty."
   )"
   for item in $raw_list; do
